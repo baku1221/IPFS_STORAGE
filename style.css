@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(90deg, rgba(210,186,114,1) 10%, rgba(246, 241,177,1) 50%, rgba(221,216,148,1) 100%);
+}
+
+
+.container {
+  background-color: #FEB60D;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    /* align-content: center; */
+    flex-direction: column;
+    margin-left: 500px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.upload-section,
+.url-download-section {
+  background-color: #FFFBEB;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.sub-heading {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.url-form {
+  display: flex;
+  justify-content: center;
+}
+
+.url-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.btn {
+  background-image: linear-gradient(rgb(13,14,33),rgb(13,14,33)), radial-gradient(circle at left top, rgb(1,110,218), rgb(217,0,192));
+  color: #ffffff;
+  border: 2px double transparent;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.error-msg {
+  color: #ff0000;
+  text-align: center;
+}
+
+.brand-logo {
+  position: absolute;
+  top: -211px;
+  left: 52px;
+  width: 373px;
+  height: 292px;
+  margin: 10px;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.btn-container button {
+  margin-left: 10px;
+}
+
+
+
